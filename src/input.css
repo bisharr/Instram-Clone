@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply h-7 ease-out cursor-pointer hover:scale-125 transition-all duration-500;
+  }
+}
